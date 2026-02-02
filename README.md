@@ -8,7 +8,7 @@ Professional risk register for ISO 27001 Information Security Management System 
 - CSV format for easy version control
 
 ## Usage
-Open `Risk Register.csv` in Excel or Google Sheets.
+Open `[Risk Register.csv](Risk%20Register.csv)` in Excel or Google Sheets.
 
 ## GRC portfolio project
 Built for enterprise risk management demonstrations.
