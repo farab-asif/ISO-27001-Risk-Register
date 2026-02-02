@@ -7,6 +7,9 @@ Professional risk register for ISO 27001 Information Security Management System 
 - Risk owners, controls, and status tracking
 - CSV format for easy version control
 
+## Risk scoring
+Risk score = Likelihood × Impact (1–5 scale).
+
 ## Usage
 Open [Risk Register.csv](Risk%20Register.csv) in Excel or Google Sheets.
 
