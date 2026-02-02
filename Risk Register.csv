@@ -1,0 +1,21 @@
+Risk Name,Risk Description,Likelihood,Impact,Risk Score,Risk Owner,Controls in Place,Risk Status,Risk Category,Risk Source,Risk Priority,Risk Assessment Date
+Data breach,Unauthorized access to sensitive data,4,5,20,IT,Access controls ,Open,Technical,External,High,02/02/2026
+System downtime,Critical system goes offline unexpectedly,3,4,12,Operations,Backup systems,Open,Technical ,Internal ,Medium,02/02/2026
+Phishing attack,Employees tricked into revealing info,5,3,15,Security,"Trainings, filters",Open,Human,External ,High,02/02/2026
+Insider threat,Employee misuses access to harm company,2,5,10,HR/ Security,"Access controls,  monitoring",Open,Human,Internal,Medium,02/02/2026
+Malware infection,Malware software infects system,4,4,16,IT/ Security,"Antivirus, patching",Open,Technical,External,High,02/02/2026
+Physical theft,Equipment or data is stolen physically,3,4,12,Security,"Locks, access control",Open,Physical,External,Medium,02/02/2026
+Unpatched systems,Systems missing security updates,4,4,16,IT/ Security,Patch management,Open,Technical,Internal,High,02/02/2026
+Third-party breach,Vendor or partner suffers a data breach,3,5,15,Procurement,Vendor risk assessments,Open,External,External,High,02/02/2026
+Natural disaster,"Earth quake, flood or fire damage facilities",2,5,10,Security,Disaster recovery plan,Open,Physical,Internal,Medium,02/02/2026
+Power outage,Loss of electricity disrupts operations,3,4,12,Security,Backup generators,Open,Physical,Internal,Medium,02/02/2026
+Data Loss,Accidental or intentional deletion of data,4,5,20,IT/ Security,"Backups, access control",Open,Technical,Internal,High,02/02/2026
+Social Engineering,Attackers trick staff into giving info,5,3,15,Security,"Trainings, awareness",Open,Human,External,High,02/02/2026
+Misconfigured systems ,"Systems setting up incorrectly, creating vulnerabilities",4,4,16,IT/ Security,Configuration management,Open,Technical,Internal,High,02/02/2026
+Supply chain attack,Cyberattack targets vendors or suppliers,3,5,15,Procurement,Vendor risk assessment,Open,External,External,High,02/02/2026
+Unauthorized access,Someone gains access without permission,4,5,20,IT/ Security,"Access control, monitoring",Open,Technical,External ,High,02/02/2026
+Lost/ Stolen devices,"Phones, laptops or USBs containing data lost or stolen",4,4,16,IT/ Security,"Full disk encryption, MDM",Open,Physical,External ,High,02/02/2026
+Weak passwords,Users use simple or weak passwords,5,3,15,IT/ Security,"Password policy, MFA",Open,Human,Internal,High,02/02/2026
+Insecure APIs,Poorly designed interfaces expose data,3,5,15,Development,API security testing,Open,Technical,External,High,02/02/2026
+Poor incident response,Slow or weak response to security incidents ,2,5,10,Security,Incident response plan,Open,Process,Internal,Medium,02/02/2026
+Lack of awareness,Staff not trained on security policies and risks,5,3,15,HR/ Security,Security awareness training,Open,Human,Internal,High,02/02/2026
