@@ -1,21 +1,21 @@
-Risk Name,Risk Description,Likelihood,Impact,Risk Score,Risk Owner,Controls in Place,Risk Status,Risk Category,Risk Source,Risk Priority,Risk Assessment Date
-Data breach,Unauthorized access to sensitive data,4,5,20,IT,Access controls ,Open,Technical,External,High,02/02/2026
-System downtime,Critical system goes offline unexpectedly,3,4,12,Operations,Backup systems,Open,Technical ,Internal ,Medium,02/02/2026
-Phishing attack,Employees tricked into revealing info,5,3,15,Security,"Trainings, filters",Open,Human,External ,High,02/02/2026
-Insider threat,Employee misuses access to harm company,2,5,10,HR/ Security,"Access controls,  monitoring",Open,Human,Internal,Medium,02/02/2026
-Malware infection,Malware software infects system,4,4,16,IT/ Security,"Antivirus, patching",Open,Technical,External,High,02/02/2026
-Physical theft,Equipment or data is stolen physically,3,4,12,Security,"Locks, access control",Open,Physical,External,Medium,02/02/2026
-Unpatched systems,Systems missing security updates,4,4,16,IT/ Security,Patch management,Open,Technical,Internal,High,02/02/2026
-Third-party breach,Vendor or partner suffers a data breach,3,5,15,Procurement,Vendor risk assessments,Open,External,External,High,02/02/2026
-Natural disaster,"Earth quake, flood or fire damage facilities",2,5,10,Security,Disaster recovery plan,Open,Physical,Internal,Medium,02/02/2026
-Power outage,Loss of electricity disrupts operations,3,4,12,Security,Backup generators,Open,Physical,Internal,Medium,02/02/2026
-Data Loss,Accidental or intentional deletion of data,4,5,20,IT/ Security,"Backups, access control",Open,Technical,Internal,High,02/02/2026
-Social Engineering,Attackers trick staff into giving info,5,3,15,Security,"Trainings, awareness",Open,Human,External,High,02/02/2026
-Misconfigured systems ,"Systems setting up incorrectly, creating vulnerabilities",4,4,16,IT/ Security,Configuration management,Open,Technical,Internal,High,02/02/2026
-Supply chain attack,Cyberattack targets vendors or suppliers,3,5,15,Procurement,Vendor risk assessment,Open,External,External,High,02/02/2026
-Unauthorized access,Someone gains access without permission,4,5,20,IT/ Security,"Access control, monitoring",Open,Technical,External ,High,02/02/2026
-Lost/ Stolen devices,"Phones, laptops or USBs containing data lost or stolen",4,4,16,IT/ Security,"Full disk encryption, MDM",Open,Physical,External ,High,02/02/2026
-Weak passwords,Users use simple or weak passwords,5,3,15,IT/ Security,"Password policy, MFA",Open,Human,Internal,High,02/02/2026
-Insecure APIs,Poorly designed interfaces expose data,3,5,15,Development,API security testing,Open,Technical,External,High,02/02/2026
-Poor incident response,Slow or weak response to security incidents ,2,5,10,Security,Incident response plan,Open,Process,Internal,Medium,02/02/2026
-Lack of awareness,Staff not trained on security policies and risks,5,3,15,HR/ Security,Security awareness training,Open,Human,Internal,High,02/02/2026
+Risk Name,Risk Description,Likelihood,Impact,Risk Score,Risk Owner,Controls in Place,Risk Status,Risk Category,Risk Source,Risk Priority,Risk Assessment Date,Related Controls (Annex A)
+Data breach,Unauthorized access to sensitive data,4,5,20,IT,Access controls ,Open,Technical,External,High,02/02/2026,"A.5.12, A.5.14, A.5.15, A.8.3, A.8.13, A.8.24"
+System downtime,Critical system goes offline unexpectedly,3,4,12,Operations,Backup systems,Open,Technical ,Internal ,Medium,02/02/2026,"A.5.29, A.5.30, A.8.6, A.8.13, A.8.14"
+Phishing attack,Employees tricked into revealing info,5,3,15,Security,"Trainings, filters",Open,Human,External ,High,02/02/2026,"A.6.3, A.6.8, A.7.7, A.8.5, A.8.7, A.8.23"
+Insider threat,Employee misuses access to harm company,2,5,10,HR/ Security,"Access controls,  monitoring",Open,Human,Internal,Medium,02/02/2026,"A.5.3, A.5.15, A.5.18, A.6.3, A.6.4, A.7.7, A.8.3, A.8.15"
+Malware infection,Malware software infects system,4,4,16,IT/ Security,"Antivirus, patching",Open,Technical,External,High,02/02/2026,"A.5.10, A.6.3, A.7.7, A.8.1, A.8.7, A.8.8, A.8.15, A.8.16"
+Physical theft,Equipment or data is stolen physically,3,4,12,Security,"Locks, access control",Open,Physical,External,Medium,02/02/2026,"A.7.2, A.7.3, A.7.7, A.7.8, A.7.9, A.7.10, A.8.1"
+Unpatched systems,Systems missing security updates,4,4,16,IT/ Security,Patch management,Open,Technical,Internal,High,02/02/2026,"A.5.9, A.5.37, A.8.1, A.8.7, A.8.8, A.8.9, A.8.15"
+Third-party breach,Vendor or partner suffers a data breach,3,5,15,Procurement,Vendor risk assessments,Open,External,External,High,02/02/2026,"A.5.19, A.5.20, A.5.21, A.5.22, A.5.23, A.8.20, A.8.21"
+Natural disaster,"Earth quake, flood or fire damage facilities",2,5,10,Security,Disaster recovery plan,Open,Physical,Internal,Medium,02/02/2026,"A.5.29, A.5.30, A.8.13, A.8.14"
+Power outage,Loss of electricity disrupts operations,3,4,12,Security,Backup generators,Open,Physical,Internal,Medium,02/02/2026,"A.5.29, A.5.30, A.7.11, A.8.13, A.8.14"
+Data Loss,Accidental or intentional deletion of data,4,5,20,IT/ Security,"Backups, access control",Open,Technical,Internal,High,02/02/2026,"A.5.33, A.8.10, A.8.13, A.8.14"
+Social Engineering,Attackers trick staff into giving info,5,3,15,Security,"Trainings, awareness",Open,Human,External,High,02/02/2026,"A.6.3, A.6.6, A.6.7, A.6.8, A.7.7, A.8.5, A.8.23"
+Misconfigured systems ,"Systems setting up incorrectly, creating vulnerabilities",4,4,16,IT/ Security,Configuration management,Open,Technical,Internal,High,02/02/2026,"A.5.3, A.5.37, A.8.6, A.8.8, A.8.9, A.8.20, A.8.22, A.8.32"
+Supply chain attack,Cyberattack targets vendors or suppliers,3,5,15,Procurement,Vendor risk assessment,Open,External,External,High,02/02/2026,"A.5.19, A.5.20, A.5.21, A.5.22, A.5.23, A.8.20, A.8.21"
+Unauthorized access,Someone gains access without permission,4,5,20,IT/ Security,"Access control, monitoring",Open,Technical,External ,High,02/02/2026,"A.5.15, A.5.16, A.5.17, A.5.18, A.7.7, A.8.1, A.8.3, A.8.5"
+Lost/ Stolen devices,"Phones, laptops or USBs containing data lost or stolen",4,4,16,IT/ Security,"Full disk encryption, MDM",Open,Physical,External ,High,02/02/2026,"A.7.7, A.7.8, A.7.9, A.7.10, A.8.1, A.8.10"
+Weak passwords,Users use simple or weak passwords,5,3,15,IT/ Security,"Password policy, MFA",Open,Human,Internal,High,02/02/2026,"A.5.17, A.6.3, A.8.5"
+Insecure APIs,Poorly designed interfaces expose data,3,5,15,Development,API security testing,Open,Technical,External,High,02/02/2026,"A.8.3, A.8.20, A.8.21, A.8.25, A.8.26, A.8.27, A.8.28, A.8.29"
+Poor incident response,Slow or weak response to security incidents ,2,5,10,Security,Incident response plan,Open,Process,Internal,Medium,02/02/2026,"A.5.24, A.5.25, A.5.26, A.5.27, A.5.28, A.8.15, A.8.16"
+Lack of awareness,Staff not trained on security policies and risks,5,3,15,HR/ Security,Security awareness training,Open,Human,Internal,High,02/02/2026,"A.5.10, A.6.3, A.6.4, A.6.7, A.6.8"
